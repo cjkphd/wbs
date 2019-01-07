@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>Basics</title>
 		<style type="text/css">
 	body {
@@ -11,42 +12,51 @@
 		color: white; text-align: center;
 	}
 
-	.Images {
+	div {
+
+		float: left;
 		text-align: center;
 	}
 
-	#ama {
-		border: 5px solid black;
+	hr {
+		clear: both;
 	}
 
-	#poo {
-		border: 5px solid black;
+	#img {
+		border: 1px solid black;
 	}
 
-	.Links {
-		text-align: center;
-	}
+	#copyright {
+		font-style: italic;
+		font-family: monospace;
+		text-align: right;		
+	}	
 		</style>
 </head>
 <body>
-	<h1>
-		-so biggër-
-	</h1>
-<!--Images-->	
-	<p class="Images">
-		<br />
-		<img id="ama" src="amaz.png" alt="Modified Amazon Image">
-		<img id="poo" src="poop.jpeg" alt="Poop Emoji" style="width: 200px; height: 227px;">
-	</p>
+	<h1>-so biggër-</h1>
 
-<!--Links-->
-	<p class="Links">
-		<br />
-		<a href="https://www.amazon.com">Link 1</a>
-		<a href="https://http://www.emoji.com/">Link 2</a>
-	</p>
+<!--First Image-->
+<div class="images">
+	<img id="img" src="amaz.png" alt="Modified Amazon Image">
+		<p>
+			<a href="https://www.amazon.com" target="_blank">
+			<span>Amazo
 
-	<hr />
+</span></a></p></div>
+
+<!--Second Image-->
+<div class="images">
+	<img id="img" src="poop.jpeg" alt="Poop Emoji" style="width: 200px; height: 227px;">
+		<p>
+			<a href="https://www.emoji.com/" target="_blank">
+			<span>Poop
+
+</span></a></p></div>
+
+<hr />
+
+<p id="copyright">© mamateo 2019</p>
 
 </body>
 </html>
