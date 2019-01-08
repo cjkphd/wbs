@@ -1,0 +1,148 @@
+body {
+	background-color: #505050;
+}
+
+.page-center {
+	margin: auto;
+	width: 1420px;
+	position: relative;
+}
+
+#title {
+	height: 137px;
+    width: 1420px;
+    position: relative;
+}
+
+#left-side {
+	width: 108px;
+    height: 410px;
+    float: left;
+    margin: 20px 0 0 30px;
+    padding: 15px 0 0 32px;
+}
+
+#main {
+	margin: 20px 0 0 30px;
+    width: 1020px;
+    height: 582px;
+    float: left;
+    position: relative;
+}
+
+#main img {
+	margin:	10px;
+	width: 1000px;
+	height: 562px;
+}
+
+#right-side {
+	width: 105px;
+    height: 410px;
+    float: left;
+    margin: 20px 0 0 30px;
+    padding: 15px 0 0 35px;
+}
+
+#green-section {
+	border-radius: 9px;
+    box-shadow: 10px 10px 10px #000000;
+	background-color: #88ff89;
+    width: 500px;
+    height: 150px;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: 300;
+    left: -250px;
+    top: -75px;
+    position: relative;
+    z-index: 2;
+}
+
+.grey-section {
+	border-radius: 9px;
+    box-shadow: 10px 10px 10px #000000;
+    background-color: #909090;
+}
+
+/* whole image id & class */
+#header-42 {
+    height: 130px;
+    margin: 5px 0 0 10px;
+    position: absolute;
+}
+
+#header-loupe {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+.header-icon {
+    position: absolute;
+    right: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+#header-reload {
+    top: 10px;
+}
+
+#header-close {
+    bottom: 10px;
+}
+
+.left-icon {
+    width: 70px;
+    margin-bottom: 6px;
+}
+
+.right-icon {
+    width: 70px;
+    margin-bottom: 6px;
+}
+
+#the-wall {
+    content: '';
+    background-image: url('resources/brick.jpg');
+    width: 120px;
+    height: 70px;
+    margin:-5px 0 0 -25px;
+}
+
+/* green part */
+#green-section span.big {
+    font-family: Times;
+    font-size: 31px;
+}
+
+#green-section span.shadow {
+    text-shadow: 5px 5px 5px #ff0000;
+}
+
+#green-section span.italic {
+    font-style: italic;
+}
+
+#green-section form {
+    height: 22px;
+}
+
+#green-section form input[type="text"] {
+    margin-left: 2px;
+    width: 376px;
+    border: 2px solid #9d969d;
+    border-bottom-color: #eeeeee;
+    border-right-color: #eeeeee;
+    height: 15px;
+}
+
+#green-section form input[type="submit"] {
+    border: 1px solid #a8a4a5;
+    border-radius: 1px;
+    margin-left: 4px;
+    height: 22px;
+    font-size:12px;
+    letter-spacing: 1px;
+  
